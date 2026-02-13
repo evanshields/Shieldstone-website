@@ -13,13 +13,13 @@ export function ComingSoon() {
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-2xl px-4">
-        <div className="mb-8 flex justify-center">
+        <div className="mb-6 flex justify-center">
           <Image
-            src="/shieldstone-logo.png"
-            alt="ShieldStone Logo"
-            width={400}
-            height={150}
-            className="h-auto w-full max-w-md"
+            src="/logo-05.png"
+            alt="Shieldstone Logo"
+            width={300}
+            height={300}
+            className="h-auto w-full max-w-xs"
             priority
           />
         </div>
