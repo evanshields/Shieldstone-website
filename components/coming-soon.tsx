@@ -15,15 +15,7 @@ export function ComingSoon() {
       {/* Header Navigation */}
       <header className="fixed z-50 top-0 left-0 w-full pt-8 md:pt-12">
         <nav className="flex justify-center items-center gap-8 md:gap-12">
-          {["About", "Portfolio", "Insights", "Contact"].map((item) => (
-            <Link
-              key={item}
-              className="uppercase font-mono text-xs md:text-sm text-foreground/70 hover:text-foreground/100 duration-150 transition-colors ease-out"
-              href={`#${item.toLowerCase()}`}
-            >
-              {item}
-            </Link>
-          ))}
+
         </nav>
       </header>
 
@@ -44,9 +36,7 @@ export function ComingSoon() {
           Coming Soon
         </h1>
 
-        <p className="text-sm sm:text-base text-foreground/60 text-balance drop-shadow-lg">
-          Something amazing is on the way. Stay tuned!
-        </p>
+
       </div>
     </div>
   );
